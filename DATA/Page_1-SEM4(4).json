@@ -1,0 +1,74 @@
+{
+    "data": {
+        "name": "RANJITH G RAO",
+        "regnum": 220903006,
+        "phone": 8582882841,
+        "dob": "2005 06 02",
+        "email": "GRANJITH@GMAIL.COM",
+        "address": "H.NO : 12/24",
+        "gender": "MALE",
+        "father_name": "G RAMAKRISHNA",
+        "father_mobile": 9849921360,
+        "mother_name": "INDULEKHA",
+        "mother_mobile": 9708731341,
+        "branch": "Computer Science and Engineering ",
+        "section": "D",
+        "semester": "IV",
+        "cgpa": 6.68,
+        "totalCreditsEarned": 69,
+        "grades": {
+            "Semester I": {
+                "BIOLOGY FOR ENGINEERS": "B",
+                "ENGINEERING CHEMISTRY": "C",
+                "ENGINEERING CHEMISTRY LAB": "B",
+                "ENVIRONMENTAL STUDIES": "C",
+                "PROBLEM SOLVING USING COMPUTERS": "D",
+                "PSUC LAB": "E",
+                "BASIC ELECTRICAL TECHNOLOGY": "C",
+                "ENGINEERING MATHEMATICS - I": "B",
+                "ENGINEERING GRAPHICS - I": "B",
+                "GPA": "7.23",
+                "Credits": "22.00"
+            },
+            "Semester II": {
+                "MECHANICS OF SOLIDS": "E",
+                "BASIC ELECTRONICS": "E",
+                "COMMUNICATION SKILLS IN ENGLISH AND HUMAN VALUES": "C",
+                "ENGINEERING MATHEMATICS - II": "C",
+                "BASIC MECHANICAL ENGINEERING": "D",
+                "WORKSHOP PRACTICE": "A",
+                "ENGINEERING GRAPHICS - II": "A",
+                "ENGINEERING PHYSICS": "B",
+                "ENGINEERING PHYSICS LAB": "B",
+                "GPA": "6.77",
+                "Credits": "22.00"
+            },
+            "Semester III": {
+                "COMPUTER ORGANIZATION & ARCHITECTURE": "D",
+                "DATA STRUCTURES AND APPLICATIONS": "E",
+                "DIGITAL SYSTEM DESIGN": "E",
+                "OBJECT ORIENTED PROGRAMMING": "E",
+                "DATA STRUCTURES LAB": "D",
+                "DIGITAL SYSTEM DESIGN LAB": "C",
+                "OBJECT ORIENTED PROGRAMMING LAB": "E",
+                "OPEN SOURCE TECHNOLOGIES LAB": "D",
+                "ENGINEERING MATHEMATICS - III": "D",
+                "GPA": "5.50",
+                "Credits": "24.00"
+            },
+            "Semester IV": {
+                "DATABASE SYSTEMS": "C",
+                "DESIGN AND ANALYSIS OF ALGORITHMS": "C",
+                "EMBEDDED SYSTEMS": "D",
+                "FORMAL LANGUAGES AND AUTOMATA THEORY": "D",
+                "ALGORITHMS LAB": "E",
+                "DATABASE SYSTEMS LAB": "B",
+                "EMBEDDED SYSTEMS LAB": "C",
+                "ENGINEERING MATHEMATICS - IV": "C",
+                "ENERGY ENGINEERING": "D",
+                "GPA": "6.67",
+                "Credits": "24.00"
+            }
+        }
+    }
+}
