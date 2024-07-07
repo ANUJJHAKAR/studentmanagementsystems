@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+	{% load static %}
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Student Login</title>
+		<link rel="stylesheet" href="{% static 'css/style.css' %}" />
+	</head>
+	<body>
+		<nav>
+			<div class="logo">
+				<img src="{% static 'assets/images/logo.jpg'%}" alt="logo" />
+			</div>
+			<div class="dept">
+				<h1>Department of Computer Science and Engineering</h1>
+			</div>
+		</nav>
+		<main>
+			<div class="login">
+				<h1>Student Login</h1>
+				<div class="form">
+					<form action="/slogin" method="post">
+						{% csrf_token %}
+						<label for="mentor_id">Email:</label>
+						<input
+							type="text"
+							name="email"
+							id="student_id"
+							placeholder="Email"
+							required
+						/>
+						<br />
+						<label for="password">Password:</label>
+						<input
+							type="password"
+							name="password"
+							id="password"
+							placeholder="Password"
+						/>
+						<br />
+						<div class="button">
+							<button type="submit">Login</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</main>
+	</body>
+</html>

@@ -1,0 +1,225 @@
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;   
+    min-height: 100vh;
+}
+
+nav {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+}
+
+nav .logo img {
+    box-sizing: border-box;
+    max-width: 500px;
+    width: 100%;
+    padding: 25px 35px 20px 45px;
+}
+
+nav .dept {
+    padding: 20px;
+    text-align: center;
+}
+
+.container{
+    margin-top: 50px;
+    flex-grow: 1; 
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    width: 300px;
+    margin: 0 auto;
+}
+
+form label {
+    margin-top: 20px;
+}
+
+form input[type="text"],
+form input[type="password"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+form input[type="text"]:focus,
+form input[type="password"]:focus {
+    outline: none;
+    border-color: #4CAF50;
+}
+
+.button button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+.button button a {
+    text-decoration: none;
+    color: white;
+}
+
+.button button:hover {
+    opacity: 0.8;
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.footer{
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    background-color: #f1f1f1;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.container .welcome{
+    color: #333;
+    text-align: center;
+    padding: 60px ;
+}
+
+.container h1{
+    font-size: 2rem;
+    color: #333;
+    text-align: center;
+}
+
+.options{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    gap: 50px;
+}
+
+.options img{
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    border-radius: 50%;
+    margin: 0 20px;
+}
+
+.mentor_signin{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.mentor_signin button{
+    padding: 10px 20px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.mentor_signin button:hover{
+    background-color: #4d4b4b;
+    color: #333;
+}
+
+.mentor_signin button a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.mentee_signin{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.mentee_signin button{
+    padding: 10px 20px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.mentee_signin button:hover{
+    background-color: #4d4b4b;
+    color: #333;
+}
+
+.mentee_signin button a{
+    text-decoration: none;
+    color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+    .container{
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+
+    .container{
+        flex-direction: column;
+    }
+
+    .options{
+        flex-direction: column;
+    }
+
+    .options img{
+        width: 100%;
+        height: 100%;
+    }
+    
+}
+
+@media screen and (max-width: 875px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav .logo img {
+        padding: 30px 35px 20px 35px;
+    }
+}
+
+@media screen and (max-width: 1278px) {
+    nav .logo img {
+        padding: 30px 35px 20px 35px;
+    }
+}
