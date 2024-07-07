@@ -1,0 +1,48 @@
+{
+    "data": {
+        "name": "SRIJA REDDY",
+        "regnum": 230903057,
+        "phone": 6302882942,
+        "dob": "2005 01 10",
+        "email": "SRIJA@GMAIL.COM",
+        "address": "FLAT No:1104",
+        "gender": "FEMALE",
+        "father_name": "KOUSHIK REDDY",
+        "father_mobile": 6213499360,
+        "mother_name": "SUJATHA",
+        "mother_mobile": 8008731341,
+        "branch": "Electronics Communication and Engineering ",
+        "section": "C",
+        "semester": "IV",
+        "cgpa": 7.69,
+        "totalCreditsEarned": 44,
+        "grades": {
+            "Semester I": {
+                "BIOLOGY FOR ENGINEERS": "B",
+                "ENGINEERING CHEMISTRY": "C",
+                "ENGINEERING CHEMISTRY LAB": "A",
+                "ENVIRONMENTAL STUDIES": "B",
+                "PROBLEM SOLVING USING COMPUTERS": "B",
+                "PSUC LAB": "B",
+                "BASIC ELECTRICAL TECHNOLOGY": "B",
+                "ENGINEERING MATHEMATICS - I": "B",
+                "ENGINEERING GRAPHICS - I": "B",
+                "GPA": 8.45,
+                "Credits": "22.00"
+            },
+            "Semester II": {
+                "MECHANICS OF SOLIDS": "D",
+                "BASIC ELECTRONICS": "B",
+                "COMMUNICATION SKILLS IN ENGLISH AND HUMAN VALUES": "C",
+                "ENGINEERING MATHEMATICS - II": "B",
+                "BASIC MECHANICAL ENGINEERING": "C",
+                "WORKSHOP PRACTICE": "A+",
+                "ENGINEERING GRAPHICS - II": "A",
+                "ENGINEERING PHYSICS": "C",
+                "ENGINEERING PHYSICS LAB": "B",
+                "GPA": 7.96,
+                "Credits": "22.00"
+            }
+        }
+    }
+}
