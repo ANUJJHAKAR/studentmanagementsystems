@@ -1,0 +1,100 @@
+{
+    "data": {
+        "name": "SAJJANAM DEEKSHITHA",
+        "regnum": "210905286",
+        "phone": "7975871948",
+        "dob": "2003 12 13",
+        "email": "DEEKSHITHASAJJANAM13@GMAIL.COM",
+        "address": NaN,
+        "gender": "",
+        "father_name": "SAJJANAM KISHOR KUMAR",
+        "father_mobile": "9866112816",
+        "mother_name": "SANDHYA RANI",
+        "mother_mobile": "9912869714",
+        "branch": "Computer Science and Engineering ",
+        "section": NaN,
+        "semester": NaN,
+        "cgpa": "7.36",
+        "totalCreditsEarned": "116.00",
+        "grades": {
+            "Semester I": {
+                "BIOLOGY FOR ENGINEERS": "D",
+                "ENGINEERING CHEMISTRY": "D",
+                "ENGINEERING CHEMISTRY LAB": "C",
+                "ENVIRONMENTAL STUDIES": "D",
+                "PROBLEM SOLVING USING COMPUTERS": "D",
+                "PSUC LAB": "D",
+                "BASIC ELECTRICAL TECHNOLOGY": "B",
+                "ENGINEERING MATHEMATICS - I": "A",
+                "ENGINEERING GRAPHICS - I": "A",
+                "GPA": "7.14",
+                "Credits": "22.00"
+            },
+            "Semester II": {
+                "MECHANICS OF SOLIDS": "B",
+                "BASIC ELECTRONICS": "C",
+                "COMMUNICATION SKILLS IN ENGLISH AND HUMAN VALUES": "B",
+                "ENGINEERING MATHEMATICS - II": "B",
+                "BASIC MECHANICAL ENGINEERING": "C",
+                "WORKSHOP PRACTICE": "A+",
+                "ENGINEERING GRAPHICS - II": "A",
+                "ENGINEERING PHYSICS": "D",
+                "ENGINEERING PHYSICS LAB": "A",
+                "GPA": "7.68",
+                "Credits": "22.00"
+            },
+            "Semester III": {
+                "COMPUTER ORGANIZATION & ARCHITECTURE": "B",
+                "DATA STRUCTURES AND APPLICATIONS": "E",
+                "DIGITAL SYSTEM DESIGN": "D",
+                "OBJECT ORIENTED PROGRAMMING": "D",
+                "DATA STRUCTURES LAB": "E",
+                "DIGITAL SYSTEM DESIGN LAB": "D",
+                "OBJECT ORIENTED PROGRAMMING LAB": "E",
+                "OPEN SOURCE TECHNOLOGIES LAB": "C",
+                "ENGINEERING MATHEMATICS - III": "C",
+                "GPA": "6.29",
+                "Credits": "24.00"
+            },
+            "Semester IV": {
+                "DATABASE SYSTEMS": "C",
+                "DESIGN AND ANALYSIS OF ALGORITHMS": "B",
+                "EMBEDDED SYSTEMS": "E",
+                "FORMAL LANGUAGES AND AUTOMATA THEORY": "C",
+                "ALGORITHMS LAB": "E",
+                "DATABASE SYSTEMS LAB": "B",
+                "EMBEDDED SYSTEMS LAB": "D",
+                "WOMEN'S WRITING": "A",
+                "ENGINEERING MATHEMATICS - IV": "B",
+                "GPA": "6.90",
+                "Credits": "24.00"
+            },
+            "Semester V": {
+                "COMPILER DESIGN": "A",
+                "COMPUTER NETWORKS": "B",
+                "OPERATING SYSTEMS": "B",
+                "SOFTWARE ENGINEERING": "B",
+                "COMPILER DESIGN LAB": "E",
+                "COMPUTER NETWORKS LAB": "B",
+                "OPERATING SYSTEMS LAB": "C",
+                "ESSENTIALS OF MANAGEMENT": "A",
+                "CREATIVITY ,PROBLEM SOLVING & INNOVATION": "A",
+                "GPA": "7.90",
+                "Credits": "24.00"
+            },
+            "Semester VI": {
+                "OPEN ELECTIVE-ENVIRONMENTAL MANAGEMENT": "D",
+                "ELECTIVE-BIG DATA MODELLING AND MANAGEMENT": "A",
+                "ELECTIVE-BIG DATA INTEGRATION AND PROCESSING": "A",
+                "DISTRIBUTED SYSTEMS": "A+",
+                "PARALLEL COMPUTER ARCHITECTURE AND PROGRAMMING": "C",
+                "DISTRIBUTED SYSTEMS LAB": "B",
+                "INTERNET TECHNOLOGIES LAB": "C",
+                "PARALLEL PROGRAMMING LAB": "B",
+                "ENGINEERING ECONOMICS AND FINANCIAL MANAGEMENT": "B",
+                "GPA": "8.45",
+                "Credits": "23.00"
+            }
+        }
+    }
+}

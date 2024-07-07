@@ -1,0 +1,48 @@
+{
+    "data": {
+        "name": "VAIBHAV KUMAR",
+        "regnum": 230903050,
+        "phone": 8802882942,
+        "dob": "2005 12 18",
+        "email": "VAIBHAVK@GMAIL.COM",
+        "address": "PLOT No:24",
+        "gender": "MALE",
+        "father_name": "K RAJESH KUAMR",
+        "father_mobile": 8213499450,
+        "mother_name": "PRIYANKA",
+        "mother_mobile": 6308731413,
+        "branch": "COMPUTER ENGINEERING ",
+        "section": "D",
+        "semester": "II",
+        "cgpa": 7.69,
+        "totalCreditsEarned": 44,
+        "grades": {
+            "Semester I": {
+                "BIOLOGY FOR ENGINEERS": "B",
+                "ENGINEERING CHEMISTRY": "C",
+                "ENGINEERING CHEMISTRY LAB": "A",
+                "ENVIRONMENTAL STUDIES": "B",
+                "PROBLEM SOLVING USING COMPUTERS": "B",
+                "PSUC LAB": "B",
+                "BASIC ELECTRICAL TECHNOLOGY": "B",
+                "ENGINEERING MATHEMATICS - I": "B",
+                "ENGINEERING GRAPHICS - I": "B",
+                "GPA": 8.45,
+                "Credits": "22.00"
+            },
+            "Semester II": {
+                "MECHANICS OF SOLIDS": "D",
+                "BASIC ELECTRONICS": "B",
+                "COMMUNICATION SKILLS IN ENGLISH AND HUMAN VALUES": "C",
+                "ENGINEERING MATHEMATICS - II": "B",
+                "BASIC MECHANICAL ENGINEERING": "C",
+                "WORKSHOP PRACTICE": "A+",
+                "ENGINEERING GRAPHICS - II": "A",
+                "ENGINEERING PHYSICS": "C",
+                "ENGINEERING PHYSICS LAB": "B",
+                "GPA": 7.96,
+                "Credits": "22.00"
+            }
+        }
+    }
+}
