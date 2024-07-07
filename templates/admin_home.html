@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+	{% load static %}
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Admin</title>
+		<link rel="stylesheet" href="{% static 'css/admin.css'%}" />
+		<link rel="stylesheet" href="{% static 'css/style.css' %}" />
+	</head>
+
+	<body>
+		<nav>
+			<div class="logo">
+				<img src="{% static 'assets/images/logo.jpg' %}" alt="logo" />
+			</div>
+			<div class="dept">
+				<h1>Department of Computer Science and Engineering</h1>
+			</div>
+		</nav>
+		<div class="admin-container">
+			<div class="sidebar">
+				<ul>
+					<li><a href="{% url 'Add_Students' %}">Add Students</a></li>
+					<li><a href="{% url 'Add_Teachers' %}">Add Teachers</a></li>
+					<li>
+						<a onclick="showSection('admin_marks')">Add Marks</a>
+					</li>
+					<li>
+						<a onclick="showSection('upload_list')"
+							>Upload Excel File</a
+						>
+					</li>
+					<li>
+						<a onclick="showSection('sign_out')">Sign Out</a>
+					</li>
+				</ul>
+			</div>
+			<div class="content">
+				<div id="admin_marks" style="display: none">
+					<!-- Content from admin_marks.html -->
+					<h2>Add Student Marks</h2>
+					<div class="uploadMarks">
+						<div class="marks-header">
+							<label for="semester">Year/Semester:</label>
+							<select
+								id="semester"
+								name="semester"
+								onchange="updateTable()"
+							>
+								<option value="I">I</option>
+								<option value="II">II</option>
+								<option value="III">III</option>
+								<option value="IV">IV</option>
+								<option value="V">V</option>
+								<option value="VI">VI</option>
+								<option value="VII">VII</option>
+								<option value="VIII">VIII</option>
+							</select>
+							<button onclick="uploadMarks()">Upload</button>
+						</div>
+						<div class="student-info">
+							<div class="info-field">
+								<span class="field-name">Enrollment No.:</span>
+								<span class="field-value">
+									<input
+										type="text"
+										id="enrollment_no"
+										name="enrollment_no"
+										required
+									/>
+								</span>
+							</div>
+						</div>
+						<div>
+							<h3>
+								Selected Semester:
+								<span id="selected-semester"></span>
+							</h3>
+						</div>
+						<table>
+							<thead>
+								<tr>
+									<th>Subject Code</th>
+									<th>Marks</th>
+								</tr>
+							</thead>
+							<tbody id="marks-table-body">
+								<!-- Table rows will be added here -->
+							</tbody>
+						</table>
+					</div>
+				</div>
+				<!-- Additional sections can be added similarly -->
+				<div id="upload_list" style="display: none">
+					<!-- Placeholder for Upload Excel File section -->
+					<h2>Upload Excel File</h2>
+					<form id="uploadForm" enctype="multipart/form-data">
+						<div class="form-group">
+							<label for="fileInput">Choose Excel file:</label>
+							<input
+								type="file"
+								id="fileInput"
+								name="file"
+								accept=".xls, .xlsx"
+							/>
+						</div>
+						<button type="submit" class="btn">Upload</button>
+					</form>
+					<div id="response"></div>
+				</div>
+				<div id="sign_out" style="display: none">
+					<!-- Placeholder for Sign Out section -->
+					<h2>Sign Out</h2>
+					<div class="sign_out">
+						<p>Are you sure you want to sign out?</p>
+						<button onclick="logout()">Yes</button>
+						<button onclick="showSection('profile')">No</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="/static/js/scripts.js"></script>
+		<script src="/static/js/admin_marks.js"></script>
+		<script>
+			// JavaScript functions for showing/hiding sections
+			function showSection(sectionId) {
+				// Hide all sections
+				const sections = document.querySelectorAll(".content > div");
+				sections.forEach((section) => {
+					section.style.display = "none";
+				});
+
+				// Show the selected section
+				const selectedSection = document.getElementById(sectionId);
+				if (selectedSection) {
+					selectedSection.style.display = "block";
+				}
+			}
+		</script>
+	</body>
+</html>
