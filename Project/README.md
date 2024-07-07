@@ -25,6 +25,7 @@ virtualenv django-env
 django-env\Scripts\activate
 pip install -r requirements.txt
 python manage.py makemigrations
+python manage.py makemigrations App
 python manage.py migrate
 python manage.py clearsessions
 python manage.py runserver
@@ -38,6 +39,7 @@ virtualenv django-env
 source django-env/bin/activate
 pip3 install -r requirements.txt
 python3 manage.py makemigrations
+python3 manage.py makemigrations App
 python3 manage.py migrate
 python3 manage.py clearsessions
 python3 manage.py runserver
